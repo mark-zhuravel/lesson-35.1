@@ -1,0 +1,31 @@
+@primary-color: #28a745;
+
+#less-section {
+  background-color: #e9f5ec;
+  text-align: center;
+  padding: 20px;
+
+  header {
+    background-color: @primary-color;
+    color: white;
+    padding: 10px;
+  }
+
+  .content {
+    p {
+      font-family: 'Nunito', sans-serif;
+      color: darken(@primary-color, 20%);
+    }
+
+    div {
+      width: 800px;
+      height: 600px;
+      border: 2px solid @primary-color;
+      border-radius: 10px;
+      margin: 10px auto;
+      background-repeat: no-repeat;
+      background-position: center; 
+      background-image: url(../assets/img/bob2.jpg);
+    }
+  }
+}

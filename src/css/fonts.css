@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Nunito-Regular'; 
+    src: url('../assets/fonts/nunito.woff2') format('woff2'), 
+         url('../assets/fonts/nunito.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+@font-face {
+    font-family: 'Nunito-Italic'; 
+    src: url('../assets/fonts/nunito-italic.woff2') format('woff2'), 
+         url('../assets/fonts/nunito-italic.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
